@@ -1,2 +1,21 @@
-/* aqui é o css da página */
-/*  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background:rgba(11, 84, 167, 0.575); 
+}
+#coiso{
+    background-color: blue;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+#butão{
+    width: auto;
+}

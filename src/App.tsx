@@ -3,10 +3,11 @@ import './App.css'
 function App() {
   return (
     <>
-      <div>
+      <div id='coiso'>
         <h1>teste bacana</h1>
+        <input id='butão' type= "text" placeholder='digite sua tarefa' required />
+      <button>adicionar</button>
       </div>
-      <input type="button" value="adicionar" />
     </>
   )
 }
